@@ -1,0 +1,27 @@
+.chess-info {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  border-radius: 8px;
+  width: 400px;
+  margin: 40px;
+  margin-left: 4px;
+}
+
+.image img {
+  margin-bottom: 5px;
+  width: 300px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+}
+
+.chess-title {
+  font-size: 20px;
+  margin-bottom: 2px;
+}
+
+.chess-date {
+  margin-top: 2px;
+  margin-bottom: 12px;
+}
