@@ -1,4 +1,4 @@
-<table width="500px" height="500px" cellspacing="0px" cellpadding="0px" border="10px">
+<table width="300px" height="300px" cellspacing="0px" cellpadding="0px" border="5px">
 
     <?php
     for ($row = 1; $row <= 8; $row++) {
