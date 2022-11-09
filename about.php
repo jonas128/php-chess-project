@@ -20,17 +20,17 @@ require __DIR__ . '/functions.php';
     <div class="parent">
         <div class="button-info">
             <?php
-            $pressedNumber = $_GET['number'];
-            $trivia = $pieces[$pressedNumber - 1]['trivia'];
-            $title = $pieces[$pressedNumber - 1]['title'];
-            $getPoint = $pieces[$pressedNumber - 1]['points'];
+            $pressedNumber = $_GET['number'] - 1;
+            $trivia = $pieces[$pressedNumber]['trivia'];
+            $title = $pieces[$pressedNumber]['title'];
+            $getPoint = $pieces[$pressedNumber]['points'];
 
             ?>
             <ul>
                 <li>
                     <p class="chess-order">Pjäs: <?php echo $title ?></p>
                 </li>
-                
+
                 <li>
                     <p class="chess-element">trivia = <?php echo $trivia ?></p>
                 </li>

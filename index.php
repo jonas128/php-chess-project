@@ -9,9 +9,6 @@ require __DIR__ . '/functions.php';
 </header>
 
 <main>
-    <div class="title">
-        <h1><?php getPageName("Schack Pjäser") ?></h1>
-    </div>
     <div class="board">
         <?php
         require __DIR__ . '/board.php';

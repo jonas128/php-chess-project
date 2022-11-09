@@ -2,12 +2,6 @@
 
 declare(strict_types=1);
 
-function getPageName($name)
-{
-    return $name;
-}
-
-
 function getPoint($pieces, $getPoint)
 {
     foreach ($pieces as $piece) {
