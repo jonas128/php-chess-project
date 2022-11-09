@@ -1,6 +1,6 @@
 <?php
 require __DIR__ . '/header.php';
-require __DIR__ . '/arrays.php';
+require __DIR__ . '/pieces.php';
 require __DIR__ . '/functions.php';
 
 ?>
